@@ -684,39 +684,30 @@ func initializePapers() {
         type: LiteratureType.Trial,
         title: "HORIZONS-AMI TRIAL",
         date: "22 May 2008",
-        papers: [temp1, temp2, temp3, temp4, temp5, temp6],
+        papers: [temp1, temp2, temp3, temp4, temp5, temp6],sdvsdvsd
         format: "Double-blinded multi-center RCT",
         treatment: "Bivalirudin (initial bolus of 0.75 mg/kg followed by an IV infusion of 1.75 mg/kg/hr,which was discontinued after PCI)",
-        control: "UFH (an IV bolus of 60 units/kg, with subsequent boluses) + peri-PCI Abciximab",
+        control: "UFH (an IV bolus of 60 units/kg, with subsequent boluses) + periadsvsdv-PCI Abciximab",
         inclusion: "Consecutive patients 18 years of age or older who presented within 12 hours after the onset of symptoms and who had\n • STEMI: ST-segment elevation of 1 mm or more in two or more contiguous leads \n• or New left bundle-branch block \n• or True posterior myocardial infarction were considered for enrollment.",
-        exclusion: "• Contraindications to the study medications; prior administration of thrombolytic agents, bivalirudin, glycoprotein IIb/IIIa inhibitors, LMWH, or fondaparinux for the present admission (although prior UFH was allowed); \n• Current use of warfarin; \n• History of bleeding diathesis, coagulopathy, heparin-induced thrombocytopenia, intracerebral mass, aneurysm, arteriovenous malformation, or hemorrhagic stroke; \n• Stroke or TIA within the previous 6 mo or any permanent neurologic deficit; \n• Refusal to receive blood transfusions; \n• GI or GU bleeding within the previous 2 months; \n• Major surgery within the previous 6 weeks; a known platelet count < 100,000 cells permm2 or a hgb < 10 \n• A planned elective surgical procedure that would necessitate an interruption in treatment with thienopyridines during the first 6 months after enrollment \n• Coronary stent implantation within the previous 30 days; and noncardiac coexisting conditions that could limit life expectancy to less than 1 year or that might interfere with compliance with the protocol.",
-        conclusion: "Bivalirudin monotherapy vs UFH + GPIIbIIIa in STEMI for PCI......\n• Major bleeding was significantly ↓ by bivalirudin. \n• Cardiac death at 30 days occurred significantly ↓ by bivalirudin\n• all-cause mortality ↓ by bivalirudin\n• However, Acute stent thrombosis (at 24 hours) ↑ in the bivalirudin group.  \n• Lower rates of ischemia-driven target lesion revascularization when combined with paclitaxel-eluting stent (.vs BMS) ",
+        exclusion: "• Contraindications to the study medications; prior administration of thrombolytic agents, bivalirudin, glycoprotein IIb/IIIa inhibitors, LMWH, or fondaparinux for the present admission (although prior UFH was allowed); \n• Current use of warfarin; \n• History of bleeding diathesis, coagulopathy, heparin-induced thrombocytopenia, intracerebral mass, aneurysm, arteriovenous malformation, or hemorrhagic stroke; \n• Stroke or TIA within the previous 6 mo or any permanent neurologic deficit; \n• Refusal to receive blood transfusions; \n• GI or GU bleeding within the previous 2 months; \n• Major surgery within the previous 6 weeks; a known platelet count < 100,000 cells permm2 or a hgb < 10 \n• A planned elective surgical procedure that would necessitate an interruption in treatment with thienopyridines during the first 6 months after enrollment \n• Coronary stent implantation within the previous 30 days; and noncardiac coexisting conditions that could limit life expectancy to less than 1 year vadsv PCI......\n• Major bleeding was significantly ↓ by bivalirudin. \n• Cardiac death at 30 days occurred significantly ↓ by bivalirudin\n• all-cause mortality ↓ by bivalirudin\n• However, Acute stent thrombosis (at 24 hours) ↑ in the bivalirudin group.  \n• Lower rates of ischemia-driven target lesion revascularization when combined with paclitaxel-eluting stent (.vs BMS) ",
         note: "It differed from contemporary therapy in that clopidogrel was used in most patients (as opposed to prasugrel or ticagrelor)"
-    )
+    )cadsv
     
     literatures[literatures.count-1].addCategory(Topics.AcuteCoronarySyndrome, interventiongroup: InterventionGroups.PCI4STEMI, intervention: Interventions.DESvsBMS)
-
-    
-    temp1 = Paper(titlePlusSource: "Effects of fondaparinux on mortality and reinfarction in patients with acute ST-segment elevation myocardial infarction: the OASIS-6 randomized trial, JAMA. 2006 Apr 5;295(13):1519-30.", link: "http://www.ncbi.nlm.nih.gov/pubmed/16537725")
+vdsvasdand reinfarction in patients with acute ST-segment elevation myocardial infarction: the OASIS-6 randomized trial, JAMA. 2006 Apr 5;295(13):1519-30.", link: "http://www.ncbi.nlm.nih.gov/pubmed/16537725")
     temp2 = Paper(titlePlusSource: "OASIS-6 Trial (CardioTrial.org)", link: "http://cardiologytrials.org/detail/53/", type: .CardioTrial)
     temp3 = Paper(titlePlusSource: "Anticoagulant therapy in acute ST elevation myocardial infarction", link: "http://www.uptodate.com/contents/anticoagulant-therapy-in-acute-st-elevation-myocardial-infarction?source=search_result&search=OASIS-6+TRIAL&selectedTitle=1%7E1#H21650089", type: .UpToDate)
     
-    appendTrial(
-    Topics.AcuteCoronarySyndrome,
-    interventiongroup: InterventionGroups.Anticoagulation,
-    intervention: Interventions.Fondaparinux_ACS,
+    appendTrial(dasv
+    Topics.AcuteCoronarySyndrome,sdaav    intervention: Interventions.Fondaparinux_ACS,
     type: LiteratureType.Trial,
     title: "OASIS-6 TRIAL",
     date: "5 Apr 2006",
-    papers: [temp1, temp2],
-    format: "Randomized double-blind study",
-    treatment: "Fondaparinux 2.5 mg once daily",
-    control: "UFH or Placebo",
-    inclusion: "• patients presenting with STEMI within 24 hours of symptom onset were enrolled.  \n• This time window was shortened to less than 12 hours after approximately 4300 patients had been enrolled, based on the results of the CREATE trial.",
+    papers: [temp1, temp2],dsv    inclusion: "• patients presenting with STEMI within 24 hours of symptom onset were enrolled.  \n• This time window was shortened to less than 12 hours after approximately 4300 patients had been edasavnrolled, based on the results of the CREATE trial.",
     exclusion: "• Patients with contraindications to anticoagulation",
-    conclusion: "Fondaparinux in STEMI...... \n• Better than UFH in those not for PCI (↓ bleeding)\n• Should not be used with PCI (↑↑ cath-related thrombus )"
+    conclusion: "Fondaparinux in STEMI...... \n• Better sdds UFH in those not for PCI (↓ bleeding)\n• Should not be used with PCI (↑↑ cath-related thrombus )"
     )
-    
+    a
     literatures[literatures.count-1].addCategory(Topics.AcuteCoronarySyndrome, interventiongroup: InterventionGroups.Anticoagulation, intervention: Interventions.HeparinInfusion_ACS)
     
     temp1 = Paper(titlePlusSource: "ISIS-3: a randomised comparison of streptokinase vs tissue plasminogen activator vs anistreplase and of aspirin plus heparin vs aspirin alone among 41,299 cases of suspected acute myocardial infarction. ISIS-3 (Third International Study of Infarct Survival) Collaborative Group, Lancet. 1992 Mar 28;339(8796):753-70.", link: "http://www.ncbi.nlm.nih.gov/pubmed/1347801")
